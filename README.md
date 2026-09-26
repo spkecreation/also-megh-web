@@ -1,15 +1,15 @@
-# Rishabh Raj — The Living Grid
+# Rishabh Raj — Product Designer
 
-An animation-led portfolio built with plain HTML, CSS, and JavaScript. The experience begins with a single point that expands into a reusable four-cell grid, then transforms through Featured Work, About, Process, Play, and Contact.
+An animation-led product design portfolio built with plain HTML, CSS, and JavaScript. The experience begins with a single point that expands into a reusable four-cell grid, then transforms through product work, case studies, product mindset, process, explorations, and contact.
 
 The project also includes:
 
 - Responsive desktop and mobile layouts
 - Separate desktop and mobile hero films
 - Two expanding featured-project presentations
-- Editorial case-study placeholders
-- Skills and client-trust statistics
-- A looping visual archive with image and video work
+- Product case-study previews with problem, approach, and intended outcome
+- Product-design capabilities and practice overview
+- A looping visual archive framed as visual and interaction exploration
 - A reactive WebGL guide character
 - Reduced-motion and Safari autoplay fallbacks
 
