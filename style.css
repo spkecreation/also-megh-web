@@ -44,6 +44,9 @@ body{font-family:'Avenir Next',Avenir,'Helvetica Neue',Arial,sans-serif}.hero-in
 .blob-guide{left:0;top:0;right:auto;bottom:auto;transition:none;will-change:transform;touch-action:manipulation}
 .blob-guide span{opacity:0;transition:opacity .25s;background:#fcfcfad9;border-radius:12px;padding:3px 5px;white-space:nowrap}
 .blob-guide:hover span,.blob-guide:focus-visible span{opacity:1}
+
+/* Keep both desktop and mobile hero films fully visible before scrolling. */
+.hero-wash{background:transparent!important}
 .blob-guide canvas{transform-origin:50% 55%}
 @media(max-width:700px){.archive-video-frame{height:260px}.blob-guide{width:70px;height:82px}.blob-guide span{opacity:1;font-size:9px}}
 

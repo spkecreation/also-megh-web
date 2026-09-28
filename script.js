@@ -22,7 +22,7 @@
  if(!motion&&width>=700){t=raw<2.8?2:raw<4.4?3.55:raw<5.5?4.95:raw<7.1?6.25:raw<7.8?7.6:raw<9.1?8.7:raw<10.4?10:raw<11.7?11.3:12.65}
  if(!motion&&width<700)t=Math.max(2,raw);
  stage.classList.toggle('is-idle',motion && raw<.06 && !document.hidden);
- stage.style.setProperty('--film-opacity',String((width<700?.76:.92)-((width<700?.76:.92)-.1)*range(raw,0,1.2)));
+ stage.style.setProperty('--film-opacity',String(1-(1-.1)*range(raw,0,1.2)));
  document.querySelector('.scroll-dial').style.setProperty('--dial-angle',(raw/13*720)+'deg');
  root.classList.toggle('page-hidden',document.hidden);
  const shouldPlay=motion&&!document.hidden&&scrollY<journey.offsetHeight;if(shouldPlay!==backgroundPlaying){backgroundPlaying=shouldPlay;if(shouldPlay){heroFilm.muted=true;heroFilm.loop=true;heroFilm.playsInline=true;heroFilm.play().catch(()=>{backgroundPlaying=false})}else heroFilm.pause();}
